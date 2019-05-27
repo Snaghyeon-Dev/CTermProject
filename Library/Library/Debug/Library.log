@@ -1,4 +1,6 @@
 ﻿  UI.c
-  main.c
-  코드를 생성하고 있습니다...
+d:\c_termproject\library\library\ui.c(51): warning C4028: 정식 매개 변수 3이(가) 선언과 다릅니다.
+d:\c_termproject\library\library\ui.c(93): warning C4101: 'book' :참조되지 않은 지역 변수입니다.
+d:\c_termproject\library\library\ui.c(106): warning C4026: 정식 매개 변수 목록을 사용하여 함수를 선언했습니다.
+d:\c_termproject\library\library\ui.c(115): warning C4026: 정식 매개 변수 목록을 사용하여 함수를 선언했습니다.
   Library.vcxproj -> D:\C_TermProject\Library\Debug\Library.exe

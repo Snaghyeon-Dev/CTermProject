@@ -1,7 +1,8 @@
 #include"UI.h"
 void main()
 {
-	Initiate();
+	Library library;
+	Initiate(&library);
 	PrintMainMenu();
 
 }
