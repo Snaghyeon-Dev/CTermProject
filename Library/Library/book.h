@@ -1,4 +1,5 @@
 #pragma once
+
 enum Bookcdt	//책의 상태
 {
 	Available,	//대출 가능
@@ -20,5 +21,6 @@ struct library {
 }typedef Library;
 void PrintBook(const Book bo);	//책의 정보를 출력해줌
 void InitBook(Book* bo);//책 초기화
-void AddBook(Library* lib, Book* book);		//책을 추가하는 함수
-void SearchBookByString(Library* lib, const char* string, int num);	//책을 검색하는 함수
+void AddBook(Library* lib, const Book* book);		//책을 추가하는 함수
+void AddBookByFile(Library* lib);			//파일을 이용해서 책을 추가하는 함수
+void SearchBookByString(const Library* lib, const char* string, int num);	//책을 검색하는 함수

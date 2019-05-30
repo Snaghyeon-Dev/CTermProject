@@ -1,3 +1,4 @@
 ﻿  UI.c
-d:\c_termproject\library\library\ui.c(11): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
-  Library.vcxproj -> D:\C_TermProject\Library\Debug\Library.exe
+d:\c_termproject\library\library\ui.c(10): warning C4090: '=': 'const' 한정자가 서로 다릅니다.
+d:\c_termproject\library\library\ui.c(200): error C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1334): note: 'itoa' 선언을 참조하십시오.
