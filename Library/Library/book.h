@@ -1,5 +1,4 @@
 #pragma once
-#include"Library.h"
 enum Bookcdt	//책의 상태
 {
 	Available,	//대출 가능
@@ -15,4 +14,11 @@ struct book
 	char position[15];	//책 위치
 	enum Bookcdt bookCondition;	//책의 상태
 }typedef Book;
-void AddBook(struct Library* lib, struct Book book);		//책을 추가하는 함수
+struct library {
+	int temp;
+	Book bo[1000];
+}typedef Library;
+void PrintBook(const Book bo);	//책의 정보를 출력해줌
+void InitBook(Book* bo);//책 초기화
+void AddBook(Library* lib, Book* book);		//책을 추가하는 함수
+void SearchBookByString(Library* lib, const char* string, int num);	//책을 검색하는 함수
